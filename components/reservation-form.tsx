@@ -76,7 +76,7 @@ export function ReservationForm() {
           <form onSubmit={handleSubmit} className="grid gap-4 rounded-2xl bg-card p-5 shadow-sm sm:grid-cols-2 md:p-6" noValidate={false}>
           <div className="flex flex-col gap-1.5 sm:col-span-2">
             <label htmlFor="name" className="text-sm font-medium text-foreground">Nama Lengkap</label>
-            <input id="name" name="name" required autoComplete="name" placeholder="Nama sesuai KTP" className={fieldClass} />
+            <input id="name" name="name" required autoComplete="name" placeholder="Nama" className={fieldClass} />
           </div>
           <div className="flex flex-col gap-1.5 sm:col-span-2">
             <label htmlFor="phone" className="text-sm font-medium text-foreground">Nomor HP</label>
