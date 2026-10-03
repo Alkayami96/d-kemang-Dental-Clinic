@@ -1,0 +1,167 @@
+@import 'tailwindcss';
+@import 'tw-animate-css';
+@import 'shadcn/tailwind.css';
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --font-sans: var(--font-jakarta), ui-sans-serif, system-ui, sans-serif;
+  --color-ring: var(--ring);
+  --color-input: var(--input);
+  --color-border: var(--border);
+  --color-destructive: var(--destructive);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-accent: var(--accent);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-muted: var(--muted);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-secondary: var(--secondary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary: var(--primary);
+  --color-brand-light: var(--brand-light);
+  --color-gold: var(--gold);
+  --color-gold-soft: var(--gold-soft);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-popover: var(--popover);
+  --color-card-foreground: var(--card-foreground);
+  --color-card: var(--card);
+  --color-foreground: var(--foreground);
+  --color-background: var(--background);
+  --radius-sm: calc(var(--radius) * 0.6);
+  --radius-md: calc(var(--radius) * 0.8);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) * 1.4);
+  --radius-2xl: calc(var(--radius) * 1.8);
+  --radius-3xl: calc(var(--radius) * 2.2);
+  --radius-4xl: calc(var(--radius) * 2.6);
+}
+
+:root {
+  color-scheme: light;
+  --background: #f8fafc;
+  --foreground: #0f172a;
+  --card: #ffffff;
+  --card-foreground: #0f172a;
+  --popover: #ffffff;
+  --popover-foreground: #0f172a;
+  --primary: #008b8b;
+  --primary-foreground: #ffffff;
+  --brand-light: #20b2aa;
+  --secondary: #e6f6f5;
+  --secondary-foreground: #005f5f;
+  --muted: #f1f5f9;
+  --muted-foreground: #475569;
+  --accent: #e6f6f5;
+  --accent-foreground: #005f5f;
+  --gold: #d4af37;
+  --gold-soft: #fbf5e1;
+  --destructive: #dc2626;
+  --border: #e2e8f0;
+  --input: #cbd5e1;
+  --ring: #20b2aa;
+  --radius: 0.625rem;
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  html {
+    scroll-behavior: smooth;
+    /* navbar (4rem) + announcement bar promo, agar judul section tidak tertutup. */
+    scroll-padding-top: 7.5rem;
+  }
+  @media (min-width: 768px) {
+    html {
+      scroll-padding-top: 8rem;
+    }
+  }
+  body {
+    @apply bg-background text-foreground font-sans;
+  }
+}
+
+@keyframes wa-pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgb(32 178 170 / 0.55);
+  }
+  70% {
+    box-shadow: 0 0 0 16px rgb(32 178 170 / 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgb(32 178 170 / 0);
+  }
+}
+
+.animate-wa-pulse {
+  animation: wa-pulse 2.2s ease-out infinite;
+}
+
+@keyframes promo-bar-in {
+  from {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-promo-bar {
+  animation: promo-bar-in 0.45s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+/* Menyembunyikan scrollbar pada carousel yang digeser lewat swipe/panah. */
+.scrollbar-none {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+
+/* Menjaga konten tidak tertutup sticky booking bar khusus tampilan mobile. */
+.pb-safe {
+  padding-bottom: max(env(safe-area-inset-bottom), 0.625rem);
+}
+
+@media (max-width: 767px) {
+  body {
+    padding-bottom: calc(6rem + env(safe-area-inset-bottom));
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .animate-wa-pulse {
+    animation: none;
+  }
+  .animate-promo-bar {
+    animation: none;
+  }
+  .animate-ping,
+  .animate-pulse {
+    animation: none;
+  }
+  .motion-reduced-visible,
+  [data-motion-reduced-visible] {
+    animation: none !important;
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
+  }
+}
+
+@media (scripting: none) {
+  .motion-reduced-visible,
+  [data-motion-reduced-visible] {
+    animation: none !important;
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
+  }
+}

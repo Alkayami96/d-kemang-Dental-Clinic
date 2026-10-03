@@ -1,0 +1,3 @@
+﻿corepack pnpm: 12.3.4
+npm.cmd: 11.19.0
+next installed: True

@@ -1,0 +1,570 @@
+﻿[WARN] Request took 11041ms: https://registry.npmjs.org/motion
+? Verifying lockfile against supply-chain policies (397 entries)...
+Update available! 12.3.4 ΓåÆ 12.8.1.
+Changelog: https://pnpm.io/v/12.8.1
+To update, run: Invoke-WebRequest https://get.pnpm.io/install.ps1 -UseBasicParsing | Invoke-Expression
+Progress: resolved 0, reused 0, downloaded 1, added 0
+Progress: resolved 0, reused 0, downloaded 5, added 0
+[WARN] Request took 10384ms: https://registry.npmjs.org/use-sync-external-store
+[WARN] Tarball download average speed 31 KiB/s (size 187 KiB) is below 50 KiB/s: https://registry.npmjs.org/motion/-/motion-13.4.6.tgz (GET)
+[WARN] Request took 10502ms: https://registry.npmjs.org/typescript
+[WARN] Request took 11417ms: https://registry.npmjs.org/framer-motion
+[WARN] Request took 11661ms: https://registry.npmjs.org/@base-ui%2Freact
+[WARN] Request took 11898ms: https://registry.npmjs.org/@babel%2Fhelper-create-class-features-plugin
+[WARN] Request took 12042ms: https://registry.npmjs.org/@babel%2Fplugin-syntax-typescript
+[WARN] Tarball download average speed 14 KiB/s (size 45 KiB) is below 50 KiB/s: https://registry.npmjs.org/@vercel/analytics/-/analytics-1.6.1.tgz (GET)
+[WARN] Request took 13486ms: https://registry.npmjs.org/yallist
+[WARN] Request took 13083ms: https://registry.npmjs.org/@floating-ui%2Freact-dom
+[WARN] Request took 10492ms: https://registry.npmjs.org/@img%2Fsharp-webcontainers-wasm32
+[WARN] Request took 10858ms: https://registry.npmjs.org/@img%2Fsharp-linux-riscv64
+[WARN] Request took 11027ms: https://registry.npmjs.org/@img%2Fsharp-wasm32
+[WARN] Request took 15431ms: https://registry.npmjs.org/@floating-ui%2Fdom
+[WARN] Request took 11143ms: https://registry.npmjs.org/@jridgewell%2Fremapping
+[WARN] Request took 10093ms: https://registry.npmjs.org/picocolors
+[WARN] GET https://registry.npmjs.org/zod-to-json-schema/-/zod-to-json-schema-3.25.2.tgz error (Failed to fetch https://registry.npmjs.org/zod-to-json-schema/-/zod-to-json-schema-3.25.2.tgz: error sending request for url (https://registry.npmjs.org/zod-to-json-schema/-/zod-to-json-schema-3.25.2.tgz): client error (SendRequest): connection error: peer closed connection without sending TLS close_notify: https://docs.rs/rustls/latest/rustls/manual/_03_howto/index.html#unexpected-eof) ΓÇö 1
+Will retry in 10s. 1 retries left.
+[WARN] GET https://registry.npmjs.org/picocolors/-/picocolors-1.1.1.tgz error (Failed to fetch https://registry.npmjs.org/picocolors/-/picocolors-1.1.1.tgz: error sending request for url (https://registry.npmjs.org/picocolors/-/picocolors-1.1.1.tgz): client error (SendRequest): connection closed before message completed) ΓÇö 1
+Will retry in 10s. 1 retries left.
+[WARN] Request took 16465ms: https://registry.npmjs.org/@babel%2Fhelper-string-parser
+[WARN] Tarball download average speed 1 KiB/s (size 14 KiB) is below 50 KiB/s: https://registry.npmjs.org/@babel/helper-compilation-targets/-/helper-compilation-targets-7.29.7.tgz (GET)
+[WARN] Request took 12690ms: https://registry.npmjs.org/@img%2Fsharp-linuxmusl-arm64
+[WARN] Request took 10931ms: https://registry.npmjs.org/@jridgewell%2Fremapping
+[WARN] Request took 11663ms: https://registry.npmjs.org/lru-cache
+[WARN] GET https://registry.npmjs.org/import-fresh/-/import-fresh-3.3.1.tgz error (Failed to fetch https://registry.npmjs.org/import-fresh/-/import-fresh-3.3.1.tgz: error sending request for url (https://registry.npmjs.org/import-fresh/-/import-fresh-3.3.1.tgz): client error (SendRequest): connection error: peer closed connection without sending TLS close_notify: https://docs.rs/rustls/latest/rustls/manual/_03_howto/index.html#unexpected-eof) ΓÇö 1
+Will retry in 10s. 1 retries left.
+[WARN] Request took 10825ms: https://registry.npmjs.org/micromatch
+[WARN] Request took 12157ms: https://registry.npmjs.org/jsonfile
+[WARN] Tarball download average speed 14 KiB/s (size 17 KiB) is below 50 KiB/s: https://registry.npmjs.org/@jridgewell/sourcemap-codec/-/sourcemap-codec-1.5.5.tgz (GET)
+[WARN] Request took 11244ms: https://registry.npmjs.org/content-type
+[WARN] Request took 11531ms: https://registry.npmjs.org/is-regexp
+[WARN] Request took 11589ms: https://registry.npmjs.org/get-own-enumerable-keys
+[WARN] Request took 12089ms: https://registry.npmjs.org/express
+[WARN] Tarball download average speed 23 KiB/s (size 199 KiB) is below 50 KiB/s: https://registry.npmjs.org/js-yaml/-/js-yaml-4.2.0.tgz (GET)
+[WARN] Request took 12611ms: https://registry.npmjs.org/cssesc
+[WARN] Request took 13783ms: https://registry.npmjs.org/node-releases
+[WARN] Request took 12587ms: https://registry.npmjs.org/@babel%2Fhelper-string-parser
+[WARN] Request took 20630ms: https://registry.npmjs.org/js-tokens
+[WARN] Request took 14701ms: https://registry.npmjs.org/is-inside-container
+[WARN] Request took 12476ms: https://registry.npmjs.org/chalk
+[WARN] Request took 13544ms: https://registry.npmjs.org/pkce-challenge
+[WARN] Request took 13469ms: https://registry.npmjs.org/raw-body
+[WARN] Tarball download average speed 13 KiB/s (size 14 KiB) is below 50 KiB/s: https://registry.npmjs.org/micromatch/-/micromatch-4.0.8.tgz (GET)
+[WARN] Request took 14498ms: https://registry.npmjs.org/json-schema-typed
+[WARN] Request took 14044ms: https://registry.npmjs.org/is-unicode-supported
+[WARN] Request took 14048ms: https://registry.npmjs.org/is-interactive
+[WARN] Request took 16075ms: https://registry.npmjs.org/jose
+[WARN] Tarball download average speed 16 KiB/s (size 195 KiB) is below 50 KiB/s: https://registry.npmjs.org/ts-morph/-/ts-morph-26.0.0.tgz (GET)
+[WARN] Request took 15307ms: https://registry.npmjs.org/strip-ansi
+[WARN] Request took 16274ms: https://registry.npmjs.org/ms
+[WARN] Request took 15601ms: https://registry.npmjs.org/source-map-js
+[WARN] Request took 15676ms: https://registry.npmjs.org/stdin-discarder
+[WARN] Tarball download average speed 3 KiB/s (size 6 KiB) is below 50 KiB/s: https://registry.npmjs.org/cors/-/cors-2.8.6.tgz (GET)
+[WARN] Request took 15796ms: https://registry.npmjs.org/cli-spinners
+[WARN] Tarball download average speed 18 KiB/s (size 45 KiB) is below 50 KiB/s: https://registry.npmjs.org/zod-to-json-schema/-/zod-to-json-schema-3.25.2.tgz (GET)
+[WARN] Request took 16584ms: https://registry.npmjs.org/resolve-from
+[WARN] Request took 16769ms: https://registry.npmjs.org/tiny-invariant
+[WARN] Tarball download average speed 32 KiB/s (size 48 KiB) is below 50 KiB/s: https://registry.npmjs.org/jose/-/jose-6.2.3.tgz (GET)
+[WARN] Request took 17324ms: https://registry.npmjs.org/esprima
+[WARN] Request took 17202ms: https://registry.npmjs.org/argparse
+[WARN] Request took 19693ms: https://registry.npmjs.org/hono
+[WARN] Tarball download average speed 5 KiB/s (size 110 KiB) is below 50 KiB/s: https://registry.npmjs.org/@babel/generator/-/generator-7.29.7.tgz (GET)
+[WARN] Request took 21454ms: https://registry.npmjs.org/ajv-formats
+[WARN] Request took 19280ms: https://registry.npmjs.org/shebang-command
+[WARN] Request took 19485ms: https://registry.npmjs.org/json-parse-even-better-errors
+[WARN] Request took 19546ms: https://registry.npmjs.org/error-ex
+[WARN] Request took 23967ms: https://registry.npmjs.org/@nodelib%2Ffs.walk
+[WARN] Request took 29719ms: https://registry.npmjs.org/zod
+[WARN] Request took 22803ms: https://registry.npmjs.org/express-rate-limit
+[WARN] Request took 23041ms: https://registry.npmjs.org/ajv
+[WARN] Request took 20554ms: https://registry.npmjs.org/is-glob
+[WARN] Request took 22075ms: https://registry.npmjs.org/path-key
+[WARN] Request took 22125ms: https://registry.npmjs.org/isexe
+[WARN] Request took 20618ms: https://registry.npmjs.org/default-browser-id
+[WARN] Request took 16253ms: https://registry.npmjs.org/picomatch
+[WARN] Request took 24408ms: https://registry.npmjs.org/nanoid
+[WARN] Request took 23367ms: https://registry.npmjs.org/ast-types
+[WARN] Tarball download average speed 9 KiB/s (size 38 KiB) is below 50 KiB/s: https://registry.npmjs.org/argparse/-/argparse-2.0.1.tgz (GET)
+[WARN] Request took 22110ms: https://registry.npmjs.org/bundle-name
+[WARN] Tarball download average speed 46 KiB/s (size 1237 KiB) is below 50 KiB/s: https://registry.npmjs.org/framer-motion/-/framer-motion-13.4.6.tgz (GET)
+[WARN] Request took 15351ms: https://registry.npmjs.org/body-parser
+[WARN] Request took 26740ms: https://registry.npmjs.org/cli-cursor
+[WARN] Request took 15958ms: https://registry.npmjs.org/accepts
+[WARN] Request took 25477ms: https://registry.npmjs.org/parse-ms
+[WARN] Request took 28107ms: https://registry.npmjs.org/@dotenvx%2Fdotenvx
+[WARN] Request took 17329ms: https://registry.npmjs.org/escape-html
+[WARN] Request took 17330ms: https://registry.npmjs.org/finalhandler
+[WARN] Request took 17894ms: https://registry.npmjs.org/etag
+[WARN] Request took 17915ms: https://registry.npmjs.org/cookie-signature
+[WARN] Request took 17952ms: https://registry.npmjs.org/depd
+[WARN] Request took 31550ms: https://registry.npmjs.org/caniuse-lite
+[WARN] Request took 19177ms: https://registry.npmjs.org/http-errors
+[WARN] Request took 19243ms: https://registry.npmjs.org/fresh
+[WARN] Request took 21136ms: https://registry.npmjs.org/wsl-utils
+[WARN] Request took 19893ms: https://registry.npmjs.org/parseurl
+[WARN] Request took 20001ms: https://registry.npmjs.org/on-finished
+[WARN] Request took 20158ms: https://registry.npmjs.org/merge-descriptors
+[WARN] Request took 20407ms: https://registry.npmjs.org/mime-types
+Progress: resolved 0, reused 0, downloaded 140, added 0
+Progress: resolved 0, reused 0, downloaded 143, added 0
+[WARN] Request took 26473ms: https://registry.npmjs.org/content-disposition
+[WARN] Request took 26829ms: https://registry.npmjs.org/qs
+[WARN] Request took 26876ms: https://registry.npmjs.org/router
+[WARN] Request took 40336ms: https://registry.npmjs.org/baseline-browser-mapping
+[WARN] Request took 27516ms: https://registry.npmjs.org/media-typer
+[WARN] Request took 37826ms: https://registry.npmjs.org/lines-and-columns
+[WARN] Request took 26677ms: https://registry.npmjs.org/bytes
+Progress: resolved 0, reused 0, downloaded 149, added 0
+[WARN] Request took 27880ms: https://registry.npmjs.org/iconv-lite
+[WARN] Request took 25207ms: https://registry.npmjs.org/ansi-regex
+[WARN] Request took 24915ms: https://registry.npmjs.org/source-map-js
+[WARN] Request took 28246ms: https://registry.npmjs.org/is-docker
+[WARN] GET https://registry.npmjs.org/code-block-writer/-/code-block-writer-13.0.3.tgz error (Failed to fetch https://registry.npmjs.org/code-block-writer/-/code-block-writer-13.0.3.tgz: error sending request for url (https://registry.npmjs.org/code-block-writer/-/code-block-writer-13.0.3.tgz): client error (SendRequest): connection error: An existing connection was forcibly closed by the remote host. (os error 10054)) ΓÇö 1
+Will retry in 10s. 1 retries left.
+[WARN] Request took 21736ms: https://registry.npmjs.org/shebang-regex
+[WARN] Request took 21837ms: https://registry.npmjs.org/is-arrayish
+[WARN] GET https://registry.npmjs.org/socks/-/socks-2.8.9.tgz error (Failed to fetch https://registry.npmjs.org/socks/-/socks-2.8.9.tgz: error sending request for url (https://registry.npmjs.org/socks/-/socks-2.8.9.tgz): client error (SendRequest): connection error: An existing connection was forcibly closed by the remote host. (os error 10054)) ΓÇö 1
+Will retry in 10s. 1 retries left.
+[WARN] Request took 24292ms: https://registry.npmjs.org/hono
+[WARN] Request took 21062ms: https://registry.npmjs.org/fast-deep-equal
+[WARN] GET https://registry.npmjs.org/merge2/-/merge2-1.4.1.tgz error (Failed to fetch https://registry.npmjs.org/merge2/-/merge2-1.4.1.tgz: error sending request for url (https://registry.npmjs.org/merge2/-/merge2-1.4.1.tgz): client error (SendRequest): connection error: An existing connection was forcibly closed by the remote host. (os error 10054)) ΓÇö 1
+Will retry in 10s. 1 retries left.
+[WARN] Request took 21107ms: https://registry.npmjs.org/fast-uri
+[WARN] Request took 32089ms: https://registry.npmjs.org/encodeurl
+[WARN] Request took 22926ms: https://registry.npmjs.org/fastq
+[WARN] Request took 22627ms: https://registry.npmjs.org/json-schema-traverse
+[WARN] Request took 17943ms: https://registry.npmjs.org/restore-cursor
+[WARN] Request took 22639ms: https://registry.npmjs.org/require-from-string
+[WARN] Request took 21888ms: https://registry.npmjs.org/is-extglob
+[WARN] Request took 20016ms: https://registry.npmjs.org/run-applescript
+[WARN] Request took 34766ms: https://registry.npmjs.org/range-parser
+[WARN] Request took 34814ms: https://registry.npmjs.org/cookie
+[WARN] Request took 19004ms: https://registry.npmjs.org/negotiator
+[WARN] Request took 18363ms: https://registry.npmjs.org/merge-stream
+[WARN] Request took 18580ms: https://registry.npmjs.org/enquirer
+[WARN] Request took 25597ms: https://registry.npmjs.org/@nodelib%2Ffs.scandir
+[WARN] Request took 16988ms: https://registry.npmjs.org/setprototypeof
+[WARN] Request took 18099ms: https://registry.npmjs.org/inherits
+[WARN] Request took 20672ms: https://registry.npmjs.org/eciesjs
+[WARN] Tarball download average speed 26 KiB/s (size 185 KiB) is below 50 KiB/s: https://registry.npmjs.org/iconv-lite/-/iconv-lite-0.7.2.tgz (GET)
+[WARN] Request took 49582ms: https://registry.npmjs.org/log-symbols
+Progress: resolved 0, reused 0, downloaded 164, added 0
+[WARN] Request took 13352ms: https://registry.npmjs.org/path-to-regexp
+[WARN] Request took 23985ms: https://registry.npmjs.org/onetime
+[WARN] Request took 13915ms: https://registry.npmjs.org/is-promise
+[WARN] Request took 60914ms: https://registry.npmjs.org/@nodelib%2Ffs.scandir
+[WARN] Tarball download average speed 25 KiB/s (size 893 KiB) is below 50 KiB/s: https://registry.npmjs.org/motion-dom/-/motion-dom-13.4.5.tgz (GET)
+[WARN] Request took 11912ms: https://registry.npmjs.org/safer-buffer
+[WARN] Request took 24519ms: https://registry.npmjs.org/dotenv
+[WARN] GET https://registry.npmjs.org/parse-json/-/parse-json-5.2.0.tgz error (Failed to fetch https://registry.npmjs.org/parse-json/-/parse-json-5.2.0.tgz: error sending request for url (https://registry.npmjs.org/parse-json/-/parse-json-5.2.0.tgz): client error (SendRequest): connection error: An existing connection was forcibly closed by the remote host. (os error 10054)) ΓÇö 1
+Will retry in 10s. 1 retries left.
+[WARN] Request took 54443ms: https://registry.npmjs.org/is-obj
+[WARN] GET https://registry.npmjs.org/@babel/helper-plugin-utils/-/helper-plugin-utils-7.29.7.tgz error (Failed to fetch https://registry.npmjs.org/@babel/helper-plugin-utils/-/helper-plugin-utils-7.29.7.tgz: error sending request for url (https://registry.npmjs.org/@babel/helper-plugin-utils/-/helper-plugin-utils-7.29.7.tgz): operation timed out) ΓÇö 1
+Will retry in 10s. 1 retries left.
+[WARN] Request took 53990ms: https://registry.npmjs.org/sisteransi
+[WARN] Request took 22350ms: https://registry.npmjs.org/ee-first
+[WARN] GET https://registry.npmjs.org/@babel/helper-annotate-as-pure/-/helper-annotate-as-pure-7.29.7.tgz error (Failed to fetch https://registry.npmjs.org/@babel/helper-annotate-as-pure/-/helper-annotate-as-pure-7.29.7.tgz: error sending request for url (https://registry.npmjs.org/@babel/helper-annotate-as-pure/-/helper-annotate-as-pure-7.29.7.tgz): operation timed out) ΓÇö 1
+Will retry in 10s. 1 retries left.
+[WARN] GET https://registry.npmjs.org/is-stream/-/is-stream-4.0.1.tgz error (Failed to fetch https://registry.npmjs.org/is-stream/-/is-stream-4.0.1.tgz: error sending request for url (https://registry.npmjs.org/is-stream/-/is-stream-4.0.1.tgz): client error (SendRequest): connection error: An existing connection was forcibly closed by the remote host. (os error 10054)) ΓÇö 1
+Will retry in 10s. 1 retries left.
+[WARN] Request took 16289ms: https://registry.npmjs.org/side-channel
+Progress: resolved 0, reused 0, downloaded 175, added 0
+[WARN] Request took 64006ms: https://registry.npmjs.org/@sindresorhus%2Fmerge-streams
+[WARN] Tarball download average speed 19 KiB/s (size 569 KiB) is below 50 KiB/s: https://registry.npmjs.org/zod/-/zod-3.25.76.tgz (GET)
+[WARN] Request took 58341ms: https://registry.npmjs.org/is-in-ssh
+[WARN] Request took 65311ms: https://registry.npmjs.org/@nodelib%2Ffs.stat
+[WARN] Request took 27304ms: https://registry.npmjs.org/caniuse-lite
+[WARN] Request took 29839ms: https://registry.npmjs.org/fdir
+[WARN] Request took 65904ms: https://registry.npmjs.org/@tailwindcss%2Fnode
+[WARN] Request took 58759ms: https://registry.npmjs.org/eventsource
+[WARN] GET https://registry.npmjs.org/ansi-colors/-/ansi-colors-4.1.3.tgz error (Failed to fetch https://registry.npmjs.org/ansi-colors/-/ansi-colors-4.1.3.tgz: error sending request for url (https://registry.npmjs.org/ansi-colors/-/ansi-colors-4.1.3.tgz): client error (SendRequest): connection error: peer closed connection without sending TLS close_notify: https://docs.rs/rustls/latest/rustls/manual/_03_howto/index.html#unexpected-eof) ΓÇö 1
+Will retry in 10s. 1 retries left.
+[WARN] GET https://registry.npmjs.org/safer-buffer/-/safer-buffer-2.1.2.tgz error (Failed to fetch https://registry.npmjs.org/safer-buffer/-/safer-buffer-2.1.2.tgz: error sending request for url (https://registry.npmjs.org/safer-buffer/-/safer-buffer-2.1.2.tgz): client error (SendRequest): connection error: peer closed connection without sending TLS close_notify: https://docs.rs/rustls/latest/rustls/manual/_03_howto/index.html#unexpected-eof) ΓÇö 1
+Will retry in 10s. 1 retries left.
+Progress: resolved 0, reused 0, downloaded 192, added 0
+Progress: resolved 0, reused 0, downloaded 197, added 0
+[WARN] GET https://registry.npmjs.org/figures/-/figures-6.1.0.tgz error (Failed to fetch https://registry.npmjs.org/figures/-/figures-6.1.0.tgz: error sending request for url (https://registry.npmjs.org/figures/-/figures-6.1.0.tgz): operation timed out) ΓÇö 1
+Will retry in 10s. 1 retries left.
+[WARN] GET https://registry.npmjs.org/human-signals/-/human-signals-8.0.1.tgz error (Failed to fetch https://registry.npmjs.org/human-signals/-/human-signals-8.0.1.tgz: error sending request for url (https://registry.npmjs.org/human-signals/-/human-signals-8.0.1.tgz): operation timed out) ΓÇö 1
+Will retry in 10s. 1 retries left.
+[WARN] GET https://registry.npmjs.org/pretty-ms/-/pretty-ms-9.3.0.tgz error (Failed to fetch https://registry.npmjs.org/pretty-ms/-/pretty-ms-9.3.0.tgz: error sending request for url (https://registry.npmjs.org/pretty-ms/-/pretty-ms-9.3.0.tgz): operation timed out) ΓÇö 1
+Will retry in 10s. 1 retries left.
+[WARN] GET https://registry.npmjs.org/signal-exit/-/signal-exit-4.1.0.tgz error (Failed to fetch https://registry.npmjs.org/signal-exit/-/signal-exit-4.1.0.tgz: error sending request for url (https://registry.npmjs.org/signal-exit/-/signal-exit-4.1.0.tgz): operation timed out) ΓÇö 1
+Will retry in 10s. 1 retries left.
+[WARN] Tarball download average speed 8 KiB/s (size 45 KiB) is below 50 KiB/s: https://registry.npmjs.org/enquirer/-/enquirer-2.4.1.tgz (GET)
+[WARN] Request took 54924ms: https://registry.npmjs.org/braces
+[WARN] Request took 11856ms: https://registry.npmjs.org/queue-microtask
+[WARN] Request took 35646ms: https://registry.npmjs.org/object-treeify
+[WARN] Request took 71745ms: https://registry.npmjs.org/@tailwindcss%2Foxide-android-arm64
+[WARN] GET https://registry.npmjs.org/nanoid/-/nanoid-3.3.16.tgz error (Failed to fetch https://registry.npmjs.org/nanoid/-/nanoid-3.3.16.tgz: error sending request for url (https://registry.npmjs.org/nanoid/-/nanoid-3.3.16.tgz): client error (SendRequest): connection error: An existing connection was forcibly closed by the remote host. (os error 10054)) ΓÇö 1
+Will retry in 10s. 1 retries left.
+[WARN] GET https://registry.npmjs.org/path-key/-/path-key-3.1.1.tgz error (Failed to fetch https://registry.npmjs.org/path-key/-/path-key-3.1.1.tgz: error sending request for url (https://registry.npmjs.org/path-key/-/path-key-3.1.1.tgz): client error (SendRequest): connection error: An existing connection was forcibly closed by the remote host. (os error 10054)) ΓÇö 1
+Will retry in 10s. 1 retries left.
+[WARN] GET https://registry.npmjs.org/@nodelib/fs.scandir/-/fs.scandir-2.1.5.tgz error (Failed to fetch https://registry.npmjs.org/@nodelib/fs.scandir/-/fs.scandir-2.1.5.tgz: error sending request for url (https://registry.npmjs.org/@nodelib/fs.scandir/-/fs.scandir-2.1.5.tgz): client error (SendRequest): connection error: An existing connection was forcibly closed by the remote host. (os error 10054)) ΓÇö 1
+Will retry in 10s. 1 retries left.
+[WARN] GET https://registry.npmjs.org/import-fresh/-/import-fresh-3.3.1.tgz error (Failed to fetch https://registry.npmjs.org/import-fresh/-/import-fresh-3.3.1.tgz: error sending request for url (https://registry.npmjs.org/import-fresh/-/import-fresh-3.3.1.tgz): client error (SendRequest): connection error: An existing connection was forcibly closed by the remote host. (os error 10054)) ΓÇö 2
+Will retry in 1m. 0 retries left.
+[WARN] Request took 77134ms: https://registry.npmjs.org/@nodelib%2Ffs.walk
+[WARN] GET https://registry.npmjs.org/is-in-ssh/-/is-in-ssh-1.0.0.tgz error (Failed to fetch https://registry.npmjs.org/is-in-ssh/-/is-in-ssh-1.0.0.tgz: error sending request for url (https://registry.npmjs.org/is-in-ssh/-/is-in-ssh-1.0.0.tgz): client error (SendRequest): connection error: An existing connection was forcibly closed by the remote host. (os error 10054)) ΓÇö 1
+Will retry in 10s. 1 retries left.
+[WARN] Request took 69447ms: https://registry.npmjs.org/eventsource-parser
+[WARN] GET https://registry.npmjs.org/parse-ms/-/parse-ms-4.0.0.tgz error (Failed to fetch https://registry.npmjs.org/parse-ms/-/parse-ms-4.0.0.tgz: error sending request for url (https://registry.npmjs.org/parse-ms/-/parse-ms-4.0.0.tgz): client error (SendRequest): connection error: An existing connection was forcibly closed by the remote host. (os error 10054)) ΓÇö 1
+Will retry in 10s. 1 retries left.
+[WARN] Request took 76333ms: https://registry.npmjs.org/@tailwindcss%2Foxide-linux-x64-musl
+[WARN] Request took 76704ms: https://registry.npmjs.org/@tailwindcss%2Foxide-linux-x64-gnu
+[WARN] Request took 76802ms: https://registry.npmjs.org/@tailwindcss%2Foxide-win32-arm64-msvc
+[WARN] Request took 78109ms: https://registry.npmjs.org/@ts-morph%2Fcommon
+[WARN] Tarball download average speed 0 KiB/s (size 1 KiB) is below 50 KiB/s: https://registry.npmjs.org/inherits/-/inherits-2.0.4.tgz (GET)
+[WARN] Request took 42407ms: https://registry.npmjs.org/ignore
+[WARN] Request took 78438ms: https://registry.npmjs.org/@tailwindcss%2Foxide-freebsd-x64
+[WARN] Request took 78772ms: https://registry.npmjs.org/@tailwindcss%2Foxide-darwin-x64
+[WARN] Request took 73951ms: https://registry.npmjs.org/powershell-utils
+[WARN] Request took 17559ms: https://registry.npmjs.org/side-channel-weakmap
+[WARN] GET https://registry.npmjs.org/ajv-formats/-/ajv-formats-3.0.1.tgz error (Failed to fetch https://registry.npmjs.org/ajv-formats/-/ajv-formats-3.0.1.tgz: error sending request for url (https://registry.npmjs.org/ajv-formats/-/ajv-formats-3.0.1.tgz): client error (SendRequest): connection error: An existing connection was forcibly closed by the remote host. (os error 10054)) ΓÇö 1
+Will retry in 10s. 1 retries left.
+[WARN] Request took 80106ms: https://registry.npmjs.org/@swc%2Fhelpers
+[WARN] Request took 80388ms: https://registry.npmjs.org/@tailwindcss%2Foxide-linux-arm64-gnu
+[WARN] Request took 80024ms: https://registry.npmjs.org/@ts-morph%2Fcommon
+[WARN] Request took 73104ms: https://registry.npmjs.org/string-width
+[WARN] Request took 81053ms: https://registry.npmjs.org/@tailwindcss%2Foxide-linux-arm64-musl
+[WARN] Request took 81641ms: https://registry.npmjs.org/@tailwindcss%2Foxide-darwin-arm64
+[WARN] Request took 75219ms: https://registry.npmjs.org/ip-address
+[WARN] Request took 72601ms: https://registry.npmjs.org/parent-module
+[WARN] GET https://registry.npmjs.org/bundle-name/-/bundle-name-4.1.0.tgz error (Failed to fetch https://registry.npmjs.org/bundle-name/-/bundle-name-4.1.0.tgz: error sending request for url (https://registry.npmjs.org/bundle-name/-/bundle-name-4.1.0.tgz): client error (SendRequest): connection error: peer closed connection without sending TLS close_notify: https://docs.rs/rustls/latest/rustls/manual/_03_howto/index.html#unexpected-eof) ΓÇö 1
+Will retry in 10s. 1 retries left.
+Progress: resolved 0, reused 0, downloaded 232, added 0
+[WARN] Request took 11654ms: https://registry.npmjs.org/has-symbols
+[WARN] Request took 83703ms: https://registry.npmjs.org/@tailwindcss%2Foxide-win32-x64-msvc
+[WARN] Tarball download average speed 38 KiB/s (size 57 KiB) is below 50 KiB/s: https://registry.npmjs.org/ip-address/-/ip-address-10.2.0.tgz (GET)
+[WARN] Request took 83543ms: https://registry.npmjs.org/ajv-formats
+[WARN] Request took 84669ms: https://registry.npmjs.org/@types%2Freact
+[WARN] Tarball download average speed 2 KiB/s (size 7 KiB) is below 50 KiB/s: https://registry.npmjs.org/figures/-/figures-6.1.0.tgz (GET)
+[WARN] Request took 85360ms: https://registry.npmjs.org/@types%2Freact-dom
+[WARN] Request took 85724ms: https://registry.npmjs.org/@types%2Fnode
+[WARN] Request took 84843ms: https://registry.npmjs.org/ast-types
+[WARN] Request took 84468ms: https://registry.npmjs.org/balanced-match
+[WARN] Request took 84732ms: https://registry.npmjs.org/baseline-browser-mapping
+[WARN] Request took 49782ms: https://registry.npmjs.org/is-wsl
+[WARN] GET https://registry.npmjs.org/parseurl/-/parseurl-1.3.3.tgz error (Failed to fetch https://registry.npmjs.org/parseurl/-/parseurl-1.3.3.tgz: error sending request for url (https://registry.npmjs.org/parseurl/-/parseurl-1.3.3.tgz): client error (SendRequest): connection error: An existing connection was forcibly closed by the remote host. (os error 10054)) ΓÇö 1
+Will retry in 10s. 1 retries left.
+[WARN] Request took 11473ms: https://registry.npmjs.org/ignore
+[WARN] Request took 10619ms: https://registry.npmjs.org/electron-to-chromium
+[WARN] Request took 83199ms: https://registry.npmjs.org/class-variance-authority
+[WARN] Request took 89673ms: https://registry.npmjs.org/@types%2Fvalidate-npm-package-name
+[WARN] Request took 86601ms: https://registry.npmjs.org/bundle-name
+[WARN] GET https://registry.npmjs.org/es-define-property/-/es-define-property-1.0.1.tgz error (Failed to fetch https://registry.npmjs.org/es-define-property/-/es-define-property-1.0.1.tgz: error sending request for url (https://registry.npmjs.org/es-define-property/-/es-define-property-1.0.1.tgz): client error (SendRequest): connection error: peer closed connection without sending TLS close_notify: https://docs.rs/rustls/latest/rustls/manual/_03_howto/index.html#unexpected-eof) ΓÇö 1
+Will retry in 10s. 1 retries left.
+[WARN] Request took 85242ms: https://registry.npmjs.org/callsites
+[WARN] Request took 89560ms: https://registry.npmjs.org/ajv
+[WARN] Request took 72605ms: https://registry.npmjs.org/proxy-addr
+[WARN] Tarball download average speed 25 KiB/s (size 114 KiB) is below 50 KiB/s: https://registry.npmjs.org/minimatch/-/minimatch-10.2.5.tgz (GET)
+[WARN] Request took 84268ms: https://registry.npmjs.org/clsx
+[WARN] GET https://registry.npmjs.org/fast-deep-equal/-/fast-deep-equal-3.1.3.tgz error (Failed to fetch https://registry.npmjs.org/fast-deep-equal/-/fast-deep-equal-3.1.3.tgz: error sending request for url (https://registry.npmjs.org/fast-deep-equal/-/fast-deep-equal-3.1.3.tgz): client error (SendRequest): connection error: An existing connection was forcibly closed by the remote host. (os error 10054)) ΓÇö 1
+Will retry in 10s. 1 retries left.
+[WARN] Request took 84059ms: https://registry.npmjs.org/content-disposition
+[WARN] Request took 32617ms: https://registry.npmjs.org/csstype
+[WARN] Request took 83178ms: https://registry.npmjs.org/cookie-signature
+[WARN] Request took 96899ms: https://registry.npmjs.org/@img%2Fsharp-darwin-arm64
+[WARN] Request took 86281ms: https://registry.npmjs.org/caniuse-lite
+[WARN] Request took 21900ms: https://registry.npmjs.org/function-bind
+[WARN] Request took 88478ms: https://registry.npmjs.org/call-bind-apply-helpers
+[WARN] Request took 88735ms: https://registry.npmjs.org/bytes
+[WARN] Request took 77530ms: https://registry.npmjs.org/graceful-fs
+[WARN] Request took 86630ms: https://registry.npmjs.org/cli-cursor
+[WARN] Request took 95679ms: https://registry.npmjs.org/@modelcontextprotocol%2Fsdk
+[WARN] Request took 87306ms: https://registry.npmjs.org/client-only
+[WARN] Request took 87300ms: https://registry.npmjs.org/code-block-writer
+[WARN] Request took 86854ms: https://registry.npmjs.org/content-type
+[WARN] Request took 18320ms: https://registry.npmjs.org/es-object-atoms
+[WARN] Request took 19386ms: https://registry.npmjs.org/emoji-regex
+[WARN] Request took 90316ms: https://registry.npmjs.org/call-bound
+[WARN] Request took 94273ms: https://registry.npmjs.org/ansi-regex
+[WARN] Request took 88327ms: https://registry.npmjs.org/cli-spinners
+[WARN] Request took 92325ms: https://registry.npmjs.org/browserslist
+[WARN] Request took 17699ms: https://registry.npmjs.org/function-bind
+[WARN] Request took 97440ms: https://registry.npmjs.org/@sec-ant%2Freadable-stream
+[WARN] Request took 16282ms: https://registry.npmjs.org/get-proto
+[WARN] Request took 15993ms: https://registry.npmjs.org/get-stream
+[WARN] Request took 33385ms: https://registry.npmjs.org/date-fns
+[WARN] Request took 16087ms: https://registry.npmjs.org/has-symbols
+[WARN] Request took 21002ms: https://registry.npmjs.org/es-errors
+[WARN] Request took 11370ms: https://registry.npmjs.org/lightningcss-android-arm64
+[WARN] Request took 10907ms: https://registry.npmjs.org/lightningcss-darwin-arm64
+[WARN] GET https://registry.npmjs.org/wsl-utils/-/wsl-utils-0.3.1.tgz error (Failed to fetch https://registry.npmjs.org/wsl-utils/-/wsl-utils-0.3.1.tgz: error sending request for url (https://registry.npmjs.org/wsl-utils/-/wsl-utils-0.3.1.tgz): operation timed out) ΓÇö 1
+Will retry in 10s. 1 retries left.
+[WARN] Request took 81964ms: https://registry.npmjs.org/statuses
+[WARN] Request took 97835ms: https://registry.npmjs.org/brace-expansion
+[WARN] Request took 82574ms: https://registry.npmjs.org/serve-static
+[WARN] Request took 41351ms: https://registry.npmjs.org/dotenv
+[WARN] GET https://registry.npmjs.org/ajv-formats/-/ajv-formats-3.0.1.tgz error (Failed to fetch https://registry.npmjs.org/ajv-formats/-/ajv-formats-3.0.1.tgz: error sending request for url (https://registry.npmjs.org/ajv-formats/-/ajv-formats-3.0.1.tgz): client error (SendRequest): connection error: peer closed connection without sending TLS close_notify: https://docs.rs/rustls/latest/rustls/manual/_03_howto/index.html#unexpected-eof) ΓÇö 2
+Will retry in 1m. 0 retries left.
+[WARN] Request took 87406ms: https://registry.npmjs.org/send
+[WARN] Request took 19691ms: https://registry.npmjs.org/is-wsl
+[WARN] Request took 38050ms: https://registry.npmjs.org/dunder-proto
+[WARN] GET https://registry.npmjs.org/content-disposition/-/content-disposition-1.1.0.tgz error (Failed to fetch https://registry.npmjs.org/content-disposition/-/content-disposition-1.1.0.tgz: error sending request for url (https://registry.npmjs.org/content-disposition/-/content-disposition-1.1.0.tgz): operation timed out) ΓÇö 1
+Will retry in 10s. 1 retries left.
+[WARN] Request took 25277ms: https://registry.npmjs.org/is-number
+[WARN] GET https://registry.npmjs.org/nanoid/-/nanoid-3.3.16.tgz error (Failed to fetch https://registry.npmjs.org/nanoid/-/nanoid-3.3.16.tgz: error sending request for url (https://registry.npmjs.org/nanoid/-/nanoid-3.3.16.tgz): client error (SendRequest): connection error: An existing connection was forcibly closed by the remote host. (os error 10054)) ΓÇö 2
+Will retry in 1m. 0 retries left.
+[WARN] Request took 11949ms: https://registry.npmjs.org/reselect
+[WARN] Request took 22539ms: https://registry.npmjs.org/ipaddr.js
+[WARN] Request took 12976ms: https://registry.npmjs.org/scheduler
+[WARN] Request took 12676ms: https://registry.npmjs.org/sharp
+[WARN] Request took 89885ms: https://registry.npmjs.org/once
+[WARN] GET https://registry.npmjs.org/eciesjs/-/eciesjs-0.4.18.tgz error (Failed to fetch https://registry.npmjs.org/eciesjs/-/eciesjs-0.4.18.tgz: error sending request for url (https://registry.npmjs.org/eciesjs/-/eciesjs-0.4.18.tgz): client error (SendRequest): connection error: An existing connection was forcibly closed by the remote host. (os error 10054)) ΓÇö 1
+Will retry in 10s. 1 retries left.
+[WARN] Request took 38272ms: https://registry.npmjs.org/get-proto
+[WARN] Request took 14539ms: https://registry.npmjs.org/serve-static
+[WARN] Request took 107005ms: https://registry.npmjs.org/body-parser
+[WARN] Request took 13811ms: https://registry.npmjs.org/statuses
+[WARN] Request took 14286ms: https://registry.npmjs.org/source-map
+[WARN] Request took 109944ms: https://registry.npmjs.org/@tailwindcss%2Foxide-wasm32-wasi
+[WARN] Request took 14136ms: https://registry.npmjs.org/styled-jsx
+[WARN] GET https://registry.npmjs.org/emoji-regex/-/emoji-regex-10.6.0.tgz error (Failed to fetch https://registry.npmjs.org/emoji-regex/-/emoji-regex-10.6.0.tgz: error sending request for url (https://registry.npmjs.org/emoji-regex/-/emoji-regex-10.6.0.tgz): client error (SendRequest): connection error: An existing connection was forcibly closed by the remote host. (os error 10054)) ΓÇö 1
+Will retry in 10s. 1 retries left.
+[WARN] Request took 19734ms: https://registry.npmjs.org/lightningcss-linux-arm64-musl
+[WARN] GET https://registry.npmjs.org/path-to-regexp/-/path-to-regexp-8.4.2.tgz error (Failed to fetch https://registry.npmjs.org/path-to-regexp/-/path-to-regexp-8.4.2.tgz: error sending request for url (https://registry.npmjs.org/path-to-regexp/-/path-to-regexp-8.4.2.tgz): client error (SendRequest): connection error: An existing connection was forcibly closed by the remote host. (os error 10054)) ΓÇö 1
+Will retry in 10s. 1 retries left.
+[WARN] Tarball download average speed 10 KiB/s (size 330 KiB) is below 50 KiB/s: https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001769.tgz (GET)
+[WARN] Request took 15425ms: https://registry.npmjs.org/tapable
+[WARN] Request took 41701ms: https://registry.npmjs.org/electron-to-chromium
+[WARN] Request took 52087ms: https://registry.npmjs.org/es-errors
+[WARN] Request took 27487ms: https://registry.npmjs.org/jiti
+[WARN] Request took 18831ms: https://registry.npmjs.org/smart-buffer
+[WARN] Request took 105314ms: https://registry.npmjs.org/cookie
+[WARN] Request took 115821ms: https://registry.npmjs.org/accepts
+[WARN] Request took 25214ms: https://registry.npmjs.org/magic-string
+[WARN] Request took 80018ms: https://registry.npmjs.org/mime-db
+Progress: resolved 0, reused 0, downloaded 273, added 0
+[WARN] Request took 24955ms: https://registry.npmjs.org/send
+[WARN] Request took 119979ms: https://registry.npmjs.org/@tailwindcss%2Foxide
+Progress: resolved 0, reused 0, downloaded 275, added 0
+[WARN] Request took 29735ms: https://registry.npmjs.org/lightningcss-linux-x64-gnu
+Progress: resolved 0, reused 0, downloaded 277, added 0
+[WARN] Request took 122753ms: https://registry.npmjs.org/@tailwindcss%2Fpostcss
+[WARN] Request took 28036ms: https://registry.npmjs.org/react
+[WARN] GET https://registry.npmjs.org/lines-and-columns/-/lines-and-columns-1.2.4.tgz error (Failed to fetch https://registry.npmjs.org/lines-and-columns/-/lines-and-columns-1.2.4.tgz: error sending request for url (https://registry.npmjs.org/lines-and-columns/-/lines-and-columns-1.2.4.tgz): operation timed out) ΓÇö 1
+Will retry in 10s. 1 retries left.
+[WARN] Request took 122657ms: https://registry.npmjs.org/argparse
+[WARN] GET https://registry.npmjs.org/forwarded/-/forwarded-0.2.0.tgz error (Failed to fetch https://registry.npmjs.org/forwarded/-/forwarded-0.2.0.tgz: error sending request for url (https://registry.npmjs.org/forwarded/-/forwarded-0.2.0.tgz): client error (SendRequest): connection error: An existing connection was forcibly closed by the remote host. (os error 10054)) ΓÇö 1
+Will retry in 10s. 1 retries left.
+[WARN] Request took 28458ms: https://registry.npmjs.org/tailwindcss
+[WARN] Request took 121844ms: https://registry.npmjs.org/braces
+[WARN] Request took 35368ms: https://registry.npmjs.org/lightningcss-linux-arm64-gnu
+[WARN] Request took 33046ms: https://registry.npmjs.org/once
+[WARN] GET https://registry.npmjs.org/isexe/-/isexe-2.0.0.tgz error (Failed to fetch https://registry.npmjs.org/isexe/-/isexe-2.0.0.tgz: error sending request for url (https://registry.npmjs.org/isexe/-/isexe-2.0.0.tgz): operation timed out) ΓÇö 1
+Will retry in 10s. 1 retries left.
+[WARN] GET https://registry.npmjs.org/is-stream/-/is-stream-4.0.1.tgz error (Failed to fetch https://registry.npmjs.org/is-stream/-/is-stream-4.0.1.tgz: error sending request for url (https://registry.npmjs.org/is-stream/-/is-stream-4.0.1.tgz): operation timed out) ΓÇö 2
+Will retry in 1m. 0 retries left.
+[WARN] Request took 133309ms: https://registry.npmjs.org/wsl-utils
+[WARN] Tarball download average speed 35 KiB/s (size 1977 KiB) is below 50 KiB/s: https://registry.npmjs.org/@ts-morph/common/-/common-0.27.0.tgz (GET)
+[WARN] Request took 45362ms: https://registry.npmjs.org/lightningcss-win32-x64-msvc
+[WARN] Request took 24856ms: https://registry.npmjs.org/electron-to-chromium
+[WARN] GET https://registry.npmjs.org/powershell-utils/-/powershell-utils-0.1.0.tgz error (Failed to fetch https://registry.npmjs.org/powershell-utils/-/powershell-utils-0.1.0.tgz: error sending request for url (https://registry.npmjs.org/powershell-utils/-/powershell-utils-0.1.0.tgz): operation timed out) ΓÇö 1
+Will retry in 10s. 1 retries left.
+[WARN] Request took 141029ms: https://registry.npmjs.org/@tailwindcss%2Foxide-linux-arm-gnueabihf
+[WARN] Request took 31341ms: https://registry.npmjs.org/ignore
+[WARN] Request took 135287ms: https://registry.npmjs.org/chalk
+[WARN] Request took 71031ms: https://registry.npmjs.org/call-bind-apply-helpers
+[WARN] Request took 142933ms: https://registry.npmjs.org/ansi-colors
+[WARN] GET https://registry.npmjs.org/parse-ms/-/parse-ms-4.0.0.tgz error (Failed to fetch https://registry.npmjs.org/parse-ms/-/parse-ms-4.0.0.tgz: error sending request for url (https://registry.npmjs.org/parse-ms/-/parse-ms-4.0.0.tgz): operation timed out) ΓÇö 2
+Will retry in 1m. 0 retries left.
+[WARN] Request took 71019ms: https://registry.npmjs.org/forwarded
+[WARN] Request took 75419ms: https://registry.npmjs.org/enhanced-resolve
+Progress: resolved 0, reused 0, downloaded 286, added 0
+[WARN] Request took 74195ms: https://registry.npmjs.org/brace-expansion
+[WARN] Request took 63136ms: https://registry.npmjs.org/electron-to-chromium
+[WARN] Request took 89476ms: https://registry.npmjs.org/detect-libc
+Progress: resolved 0, reused 0, downloaded 287, added 0
+[WARN] Request took 150955ms: https://registry.npmjs.org/get-stream
+[WARN] Request took 60918ms: https://registry.npmjs.org/react-dom
+Progress: resolved 0, reused 0, downloaded 289, added 0
+Progress: resolved 0, reused 0, downloaded 292, added 0
+[WARN] Request took 14713ms: https://registry.npmjs.org/typescript
+[WARN] Request took 95573ms: https://registry.npmjs.org/next
+[WARN] Request took 151889ms: https://registry.npmjs.org/cors
+Downloading next@16.3.3: 0.00 B/41.73 MB
+Downloading next@16.3.3: 228.55 kB/41.73 MB
+Downloading next@16.3.3: 490.69 kB/41.73 MB
+[WARN] Request took 10966ms: https://registry.npmjs.org/caniuse-lite
+[WARN] Request took 89913ms: https://registry.npmjs.org/get-east-asian-width
+[WARN] Request took 79967ms: https://registry.npmjs.org/lightningcss-freebsd-x64
+[WARN] Request took 85008ms: https://registry.npmjs.org/is-number
+Γ£ô Lockfile passes supply-chain policies (397 entries in 2m 57.7s)
+[WARN] Tarball download average speed 49 KiB/s (size 152 KiB) is below 50 KiB/s: https://registry.npmjs.org/styled-jsx/-/styled-jsx-5.1.6.tgz (GET)
+Downloading next@16.3.3: 1.71 MB/41.73 MB
+Progress: resolved 0, reused 0, downloaded 299, added 0
+Downloading next@16.3.3: 1.92 MB/41.73 MB
+Downloading next@16.3.3: 2.20 MB/41.73 MB
+Downloading next@16.3.3: 2.51 MB/41.73 MB
+Progress: resolved 0, reused 0, downloaded 301, added 0
+[WARN] Request took 18518ms: https://registry.npmjs.org/@next%2Fswc-linux-arm64-musl
+Downloading next@16.3.3: 3.26 MB/41.73 MB
+[WARN] Request took 12365ms: https://registry.npmjs.org/@img%2Fsharp-libvips-darwin-arm64
+[WARN] Request took 13317ms: https://registry.npmjs.org/@img%2Fsharp-linux-arm
+[WARN] Request took 13329ms: https://registry.npmjs.org/@img%2Fsharp-libvips-linuxmusl-x64
+[WARN] Request took 13760ms: https://registry.npmjs.org/@img%2Fsharp-win32-arm64
+[WARN] Request took 166352ms: https://registry.npmjs.org/object-assign
+[WARN] Request took 177606ms: https://registry.npmjs.org/smart-buffer
+[WARN] Request took 23709ms: https://registry.npmjs.org/@next%2Fswc-linux-x64-gnu
+Downloading next@16.3.3: 4.35 MB/41.73 MB
+[WARN] Request took 25324ms: https://registry.npmjs.org/@next%2Fswc-linux-arm64-gnu
+[WARN] Tarball download average speed 9 KiB/s (size 21 KiB) is below 50 KiB/s: https://registry.npmjs.org/smart-buffer/-/smart-buffer-4.2.0.tgz (GET)
+[WARN] Request took 19790ms: https://registry.npmjs.org/@img%2Fsharp-win32-x64
+[WARN] Request took 19871ms: https://registry.npmjs.org/@img%2Fsharp-darwin-arm64
+[WARN] Request took 28575ms: https://registry.npmjs.org/@next%2Fswc-darwin-x64
+Downloading next@16.3.3: 5.17 MB/41.73 MB
+[WARN] Request took 30033ms: https://registry.npmjs.org/@next%2Fswc-darwin-arm64
+Downloading @img/sharp-win32-x64@0.35.3: 0.00 B/8.43 MB
+Downloading next@16.3.3: 5.38 MB/41.73 MB
+Downloading next@16.3.3: 5.72 MB/41.73 MB
+Downloading next@16.3.3: 6.05 MB/41.73 MB
+[WARN] Request took 38255ms: https://registry.npmjs.org/@next%2Fswc-win32-x64-msvc
+Downloading @img/sharp-win32-x64@0.35.3: 568.52 kB/8.43 MB
+Downloading next@16.3.3: 6.76 MB/41.73 MB
+[WARN] Request took 194442ms: https://registry.npmjs.org/source-map
+Downloading @next/swc-win32-x64-msvc@16.3.3: 0.00 B/34.86 MB
+Downloading @img/sharp-win32-x64@0.35.3: 1.02 MB/8.43 MB
+Downloading @img/sharp-win32-x64@0.35.3: 1.15 MB/8.43 MB
+[WARN] Request took 46261ms: https://registry.npmjs.org/@next%2Fswc-linux-x64-musl
+Downloading @img/sharp-win32-x64@0.35.3: 1.37 MB/8.43 MB
+Downloading next@16.3.3: 7.84 MB/41.73 MB
+Downloading next@16.3.3: 7.91 MB/41.73 MB
+Downloading @img/sharp-win32-x64@0.35.3: 1.57 MB/8.43 MB
+Downloading @next/swc-win32-x64-msvc@16.3.3: 564.68 kB/34.86 MB
+Downloading @next/swc-win32-x64-msvc@16.3.3: 597.45 kB/34.86 MB
+Downloading @next/swc-win32-x64-msvc@16.3.3: 794.06 kB/34.86 MB
+Downloading @next/swc-win32-x64-msvc@16.3.3: 810.44 kB/34.86 MB
+Downloading @img/sharp-win32-x64@0.35.3: 2.50 MB/8.43 MB
+Downloading @img/sharp-win32-x64@0.35.3: 2.74 MB/8.43 MB
+[WARN] GET https://registry.npmjs.org/next/-/next-16.3.3.tgz error (Failed to fetch https://registry.npmjs.org/next/-/next-16.3.3.tgz: error decoding response body: request or response body error: operation timed out) ΓÇö 1
+Will retry in 10s. 1 retries left.
+Downloading @next/swc-win32-x64-msvc@16.3.3: 1.35 MB/34.86 MB
+Downloading @img/sharp-win32-x64@0.35.3: 3.45 MB/8.43 MB
+Downloading @img/sharp-win32-x64@0.35.3: 3.65 MB/8.43 MB
+Downloading @img/sharp-win32-x64@0.35.3: 3.84 MB/8.43 MB
+Downloading @img/sharp-win32-x64@0.35.3: 4.01 MB/8.43 MB
+Downloading @img/sharp-win32-x64@0.35.3: 4.15 MB/8.43 MB
+Downloading @img/sharp-win32-x64@0.35.3: 4.28 MB/8.43 MB
+[WARN] GET https://registry.npmjs.org/@img/sharp-wasm32/-/sharp-wasm32-0.35.3.tgz error (Failed to fetch https://registry.npmjs.org/@img/sharp-wasm32/-/sharp-wasm32-0.35.3.tgz: error decoding response body: request or response body error: operation timed out) ΓÇö 1
+Will retry in 10s. 1 retries left.
+Downloading @img/sharp-win32-x64@0.35.3: 4.38 MB/8.43 MB
+Downloading next@16.3.3: 22.33 kB/41.73 MB
+Downloading next@16.3.3: 197.38 kB/41.73 MB
+Downloading @next/swc-win32-x64-msvc@16.3.3: 2.17 MB/34.86 MB
+Downloading @next/swc-win32-x64-msvc@16.3.3: 2.26 MB/34.86 MB
+Downloading next@16.3.3: 623.80 kB/41.73 MB
+Downloading next@16.3.3: 738.49 kB/41.73 MB
+Downloading @next/swc-win32-x64-msvc@16.3.3: 2.71 MB/34.86 MB
+Downloading @next/swc-win32-x64-msvc@16.3.3: 2.83 MB/34.86 MB
+[WARN] Request took 14832ms: https://registry.npmjs.org/@next%2Fswc-win32-arm64-msvc
+Packages are hard linked from the content-addressable store to the virtual store.
+  Content-addressable store is at: C:\Users\USER\AppData/Local/pnpm/store\v11
+  Virtual store is at:             node_modules/.pnpm
+Progress: resolved 58, reused 0, downloaded 308, added 35
+Progress: resolved 123, reused 0, downloaded 308, added 100
+[WARN] GET https://registry.npmjs.org/@img/sharp-win32-x64/-/sharp-win32-x64-0.35.3.tgz error (Failed to fetch https://registry.npmjs.org/@img/sharp-win32-x64/-/sharp-win32-x64-0.35.3.tgz: error decoding response body: request or response body error: operation timed out) ΓÇö 1
+Will retry in 10s. 1 retries left.
+Progress: resolved 237, reused 0, downloaded 308, added 214
+Progress: resolved 294, reused 0, downloaded 308, added 275
+Progress: resolved 303, reused 0, downloaded 308, added 287
+Downloading next@16.3.3: 2.13 MB/41.73 MB
+Progress: resolved 306, reused 0, downloaded 308, added 293
+Progress: resolved 347, reused 0, downloaded 309, added 306
+[WARN] GET https://registry.npmjs.org/@next/swc-win32-x64-msvc/-/swc-win32-x64-msvc-16.3.3.tgz error (Failed to fetch https://registry.npmjs.org/@next/swc-win32-x64-msvc/-/swc-win32-x64-msvc-16.3.3.tgz: error decoding response body: request or response body error: operation timed out) ΓÇö 1
+Will retry in 10s. 1 retries left.
+Downloading next@16.3.3: 2.27 MB/41.73 MB
+Downloading next@16.3.3: 2.73 MB/41.73 MB
+[WARN] GET https://registry.npmjs.org/date-fns/-/date-fns-4.1.0.tgz error (Failed to fetch https://registry.npmjs.org/date-fns/-/date-fns-4.1.0.tgz: error sending request for url (https://registry.npmjs.org/date-fns/-/date-fns-4.1.0.tgz): client error (SendRequest): connection error: peer closed connection without sending TLS close_notify: https://docs.rs/rustls/latest/rustls/manual/_03_howto/index.html#unexpected-eof) ΓÇö 1
+Will retry in 10s. 1 retries left.
+Downloading next@16.3.3: 2.91 MB/41.73 MB
+Downloading next@16.3.3: 3.30 MB/41.73 MB
+Downloading next@16.3.3: 3.92 MB/41.73 MB
+Downloading @img/sharp-win32-x64@0.35.3: 256.08 kB/8.43 MB
+Downloading next@16.3.3: 4.22 MB/41.73 MB
+Progress: resolved 347, reused 0, downloaded 321, added 306
+[WARN] Tarball download average speed 6 KiB/s (size 7 KiB) is below 50 KiB/s: https://registry.npmjs.org/@types/react-dom/-/react-dom-19.2.3.tgz (GET)
+[WARN] Tarball download average speed 8 KiB/s (size 9 KiB) is below 50 KiB/s: https://registry.npmjs.org/scheduler/-/scheduler-0.27.0.tgz (GET)
+Downloading @next/swc-win32-x64-msvc@16.3.3: 3.28 kB/34.86 MB
+[WARN] Tarball download average speed 14 KiB/s (size 31 KiB) is below 50 KiB/s: https://registry.npmjs.org/@tailwindcss/postcss/-/postcss-4.3.3.tgz (GET)
+[WARN] GET https://registry.npmjs.org/postcss/-/postcss-8.5.6.tgz error (Failed to fetch https://registry.npmjs.org/postcss/-/postcss-8.5.6.tgz: error sending request for url (https://registry.npmjs.org/postcss/-/postcss-8.5.6.tgz): client error (SendRequest): connection error: peer closed connection without sending TLS close_notify: https://docs.rs/rustls/latest/rustls/manual/_03_howto/index.html#unexpected-eof) ΓÇö 1
+Will retry in 10s. 1 retries left.
+[WARN] GET https://registry.npmjs.org/typescript/-/typescript-5.7.3.tgz error (Failed to fetch https://registry.npmjs.org/typescript/-/typescript-5.7.3.tgz: error sending request for url (https://registry.npmjs.org/typescript/-/typescript-5.7.3.tgz): client error (SendRequest): connection error: peer closed connection without sending TLS close_notify: https://docs.rs/rustls/latest/rustls/manual/_03_howto/index.html#unexpected-eof) ΓÇö 1
+Will retry in 10s. 1 retries left.
+[WARN] GET https://registry.npmjs.org/@floating-ui/dom/-/dom-1.7.6.tgz error (Failed to fetch https://registry.npmjs.org/@floating-ui/dom/-/dom-1.7.6.tgz: error sending request for url (https://registry.npmjs.org/@floating-ui/dom/-/dom-1.7.6.tgz): client error (SendRequest): connection error: peer closed connection without sending TLS close_notify: https://docs.rs/rustls/latest/rustls/manual/_03_howto/index.html#unexpected-eof) ΓÇö 1
+Will retry in 10s. 1 retries left.
+[WARN] GET https://registry.npmjs.org/enhanced-resolve/-/enhanced-resolve-5.24.2.tgz error (Failed to fetch https://registry.npmjs.org/enhanced-resolve/-/enhanced-resolve-5.24.2.tgz: error sending request for url (https://registry.npmjs.org/enhanced-resolve/-/enhanced-resolve-5.24.2.tgz): client error (SendRequest): connection error: peer closed connection without sending TLS close_notify: https://docs.rs/rustls/latest/rustls/manual/_03_howto/index.html#unexpected-eof) ΓÇö 1
+Will retry in 10s. 1 retries left.
+[WARN] GET https://registry.npmjs.org/jiti/-/jiti-2.7.0.tgz error (Failed to fetch https://registry.npmjs.org/jiti/-/jiti-2.7.0.tgz: error sending request for url (https://registry.npmjs.org/jiti/-/jiti-2.7.0.tgz): client error (SendRequest): connection error: peer closed connection without sending TLS close_notify: https://docs.rs/rustls/latest/rustls/manual/_03_howto/index.html#unexpected-eof) ΓÇö 1
+Will retry in 10s. 1 retries left.
+[WARN] GET https://registry.npmjs.org/postcss/-/postcss-8.5.19.tgz error (Failed to fetch https://registry.npmjs.org/postcss/-/postcss-8.5.19.tgz: error sending request for url (https://registry.npmjs.org/postcss/-/postcss-8.5.19.tgz): client error (SendRequest): connection error: peer closed connection without sending TLS close_notify: https://docs.rs/rustls/latest/rustls/manual/_03_howto/index.html#unexpected-eof) ΓÇö 1
+Will retry in 10s. 1 retries left.
+[WARN] GET https://registry.npmjs.org/@floating-ui/utils/-/utils-0.2.11.tgz error (Failed to fetch https://registry.npmjs.org/@floating-ui/utils/-/utils-0.2.11.tgz: error sending request for url (https://registry.npmjs.org/@floating-ui/utils/-/utils-0.2.11.tgz): client error (SendRequest): connection error: peer closed connection without sending TLS close_notify: https://docs.rs/rustls/latest/rustls/manual/_03_howto/index.html#unexpected-eof) ΓÇö 1
+Will retry in 10s. 1 retries left.
+[WARN] Tarball download average speed 35 KiB/s (size 180 KiB) is below 50 KiB/s: https://registry.npmjs.org/tailwindcss/-/tailwindcss-4.3.3.tgz (GET)
+[WARN] Tarball download average speed 7 KiB/s (size 54 KiB) is below 50 KiB/s: https://registry.npmjs.org/@babel/runtime/-/runtime-7.29.7.tgz (GET)
+[WARN] Tarball download average speed 17 KiB/s (size 156 KiB) is below 50 KiB/s: https://registry.npmjs.org/reselect/-/reselect-5.2.0.tgz (GET)
+Downloading @img/sharp-win32-x64@0.35.3: 450.56 kB/8.43 MB
+Progress: resolved 347, reused 0, downloaded 330, added 306
+[WARN] Tarball download average speed 11 KiB/s (size 84 KiB) is below 50 KiB/s: https://registry.npmjs.org/lightningcss/-/lightningcss-1.32.0.tgz (GET)
+Downloading next@16.3.3: 5.84 MB/41.73 MB
+Downloading @next/swc-win32-x64-msvc@16.3.3: 117.19 kB/34.86 MB
+Downloading @img/sharp-win32-x64@0.35.3: 511.68 kB/8.43 MB
+Downloading @img/sharp-win32-x64@0.35.3: 528.06 kB/8.43 MB
+Downloading @img/sharp-win32-x64@0.35.3: 577.21 kB/8.43 MB
+Downloading next@16.3.3: 6.76 MB/41.73 MB
+[WARN] Tarball download average speed 17 KiB/s (size 447 KiB) is below 50 KiB/s: https://registry.npmjs.org/@types/node/-/node-24.10.4.tgz (GET)
+[WARN] GET https://registry.npmjs.org/next/-/next-16.3.3.tgz error (Failed to fetch https://registry.npmjs.org/next/-/next-16.3.3.tgz: error decoding response body: request or response body error: operation timed out) ΓÇö 2
+Will retry in 1m. 0 retries left.
+Downloading @next/swc-win32-x64-msvc@16.3.3: 138.34 kB/34.86 MB
+Downloading @next/swc-win32-x64-msvc@16.3.3: 142.54 kB/34.86 MB
+Progress: resolved 347, reused 0, downloaded 336, added 306
+[WARN] Tarball download average speed 1 KiB/s (size 26 KiB) is below 50 KiB/s: https://registry.npmjs.org/undici-types/-/undici-types-7.16.0.tgz (GET)
+Downloading @img/sharp-win32-x64@0.35.3: 708.28 kB/8.43 MB
+[WARN] Tarball download average speed 39 KiB/s (size 1257 KiB) is below 50 KiB/s: https://registry.npmjs.org/@tailwindcss/oxide-win32-x64-msvc/-/oxide-win32-x64-msvc-4.3.3.tgz (GET)
+Downloading @next/swc-win32-x64-msvc@16.3.3: 208.61 kB/34.86 MB
+Downloading @next/swc-win32-x64-msvc@16.3.3: 289.99 kB/34.86 MB
+Downloading @next/swc-win32-x64-msvc@16.3.3: 339.15 kB/34.86 MB
+Progress: resolved 347, reused 0, downloaded 341, added 316
+Downloading @next/swc-win32-x64-msvc@16.3.3: 355.53 kB/34.86 MB
+[WARN] Tarball download average speed 34 KiB/s (size 1246 KiB) is below 50 KiB/s: https://registry.npmjs.org/react-dom/-/react-dom-19.2.4.tgz (GET)
+Downloading @img/sharp-win32-x64@0.35.3: 822.97 kB/8.43 MB
+Downloading @next/swc-win32-x64-msvc@16.3.3: 470.22 kB/34.86 MB
+Downloading @img/sharp-win32-x64@0.35.3: 904.89 kB/8.43 MB
+Downloading @next/swc-win32-x64-msvc@16.3.3: 683.21 kB/34.86 MB
+Downloading @next/swc-win32-x64-msvc@16.3.3: 748.75 kB/34.86 MB
+Downloading @img/sharp-win32-x64@0.35.3: 986.81 kB/8.43 MB
+[WARN] GET https://registry.npmjs.org/@img/sharp-win32-x64/-/sharp-win32-x64-0.35.3.tgz error (Failed to fetch https://registry.npmjs.org/@img/sharp-win32-x64/-/sharp-win32-x64-0.35.3.tgz: error decoding response body: request or response body error: operation timed out) ΓÇö 2
+Will retry in 1m. 0 retries left.
+Downloading @next/swc-win32-x64-msvc@16.3.3: 814.28 kB/34.86 MB
+Downloading @next/swc-win32-x64-msvc@16.3.3: 863.43 kB/34.86 MB
+Downloading @next/swc-win32-x64-msvc@16.3.3: 912.59 kB/34.86 MB
+Downloading @next/swc-win32-x64-msvc@16.3.3: 1.04 MB/34.86 MB
+Downloading @next/swc-win32-x64-msvc@16.3.3: 1.15 MB/34.86 MB
+[WARN] GET https://registry.npmjs.org/date-fns/-/date-fns-4.1.0.tgz error (Failed to fetch https://registry.npmjs.org/date-fns/-/date-fns-4.1.0.tgz: error sending request for url (https://registry.npmjs.org/date-fns/-/date-fns-4.1.0.tgz): client error (SendRequest): connection error: An existing connection was forcibly closed by the remote host. (os error 10054)) ΓÇö 2
+Will retry in 1m. 0 retries left.
+Downloading @next/swc-win32-x64-msvc@16.3.3: 1.28 MB/34.86 MB
+[WARN] GET https://registry.npmjs.org/@next/swc-win32-x64-msvc/-/swc-win32-x64-msvc-16.3.3.tgz error (Failed to fetch https://registry.npmjs.org/@next/swc-win32-x64-msvc/-/swc-win32-x64-msvc-16.3.3.tgz: error decoding response body: request or response body error: operation timed out) ΓÇö 2
+Will retry in 1m. 0 retries left.
+[WARN] GET https://registry.npmjs.org/typescript/-/typescript-5.7.3.tgz error (Failed to fetch https://registry.npmjs.org/typescript/-/typescript-5.7.3.tgz: error decoding response body: request or response body error: operation timed out) ΓÇö 2
+Will retry in 1m. 0 retries left.
+[WARN] GET https://registry.npmjs.org/@floating-ui/dom/-/dom-1.7.6.tgz error (Failed to fetch https://registry.npmjs.org/@floating-ui/dom/-/dom-1.7.6.tgz: error decoding response body: request or response body error: operation timed out) ΓÇö 2
+Will retry in 1m. 0 retries left.
+Downloading next@16.3.3: 429.00 B/41.73 MB
+Downloading next@16.3.3: 62.35 kB/41.73 MB
+Downloading next@16.3.3: 539.85 kB/41.73 MB
+Downloading next@16.3.3: 1.15 MB/41.73 MB
+Downloading next@16.3.3: 1.26 MB/41.73 MB
+Downloading next@16.3.3: 1.65 MB/41.73 MB
+Downloading next@16.3.3: 2.02 MB/41.73 MB
+Downloading next@16.3.3: 2.38 MB/41.73 MB
+Downloading next@16.3.3: 2.72 MB/41.73 MB
+Downloading next@16.3.3: 3.00 MB/41.73 MB
+Downloading next@16.3.3: 3.21 MB/41.73 MB
+Downloading next@16.3.3: 3.64 MB/41.73 MB
+Downloading next@16.3.3: 4.18 MB/41.73 MB
+Downloading next@16.3.3: 4.67 MB/41.73 MB
+Downloading next@16.3.3: 5.13 MB/41.73 MB
+Downloading next@16.3.3: 5.75 MB/41.73 MB
+Downloading next@16.3.3: 6.36 MB/41.73 MB
+Downloading next@16.3.3: 6.99 MB/41.73 MB
+Downloading next@16.3.3: 7.64 MB/41.73 MB
