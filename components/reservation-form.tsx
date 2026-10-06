@@ -1,9 +1,11 @@
 'use client'
 
 import { useState, type FormEvent } from 'react'
-import { Send } from 'lucide-react'
+import { Send, Loader2 } from 'lucide-react'
 import { clinic, days, services } from '@/lib/clinic-data'
 import { waLinkWithText } from '@/lib/whatsapp'
+import { supabase } from '@/lib/supabase'
+import { sendWAConfirmation } from '@/lib/whatsapp'
 import { MotionButton, Reveal, Stagger, StaggerItem } from '@/components/motion'
 import { SectionHeading } from './section-heading'
 
@@ -14,9 +16,13 @@ const fieldClass =
 
 export function ReservationForm() {
   const [error, setError] = useState<string | null>(null)
+  const [loading, setLoading] = useState(false)
+  const [successMsg, setSuccessMsg] = useState<string | null>(null)
 
-  function handleSubmit(e: FormEvent<HTMLFormElement>) {
+  async function handleSubmit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault()
+    setSuccessMsg(null)
+    
     const data = new FormData(e.currentTarget)
     const name = String(data.get('name') ?? '').trim()
     const phone = String(data.get('phone') ?? '').trim()
@@ -30,20 +36,58 @@ export function ReservationForm() {
       return
     }
     setError(null)
+    setLoading(true)
 
-    const message = [
-      `Halo ${clinic.name}, saya ingin reservasi.`,
-      '',
-      `Nama: ${name}`,
-      `No. HP: ${phone}`,
-      `Layanan: ${service}`,
-      `Jadwal: ${day}, ${time}`,
-      notes ? `Catatan: ${notes}` : null,
-    ]
-      .filter((line) => line !== null)
-      .join('\n')
+    try {
+      // 1. Simpan data ke Cloud Database Supabase
+      const { error: dbError } = await supabase.from('appointments').insert([
+        {
+          name: name,
+          wa_number: phone,
+          treatment: service,
+          date: day,
+          time: time,
+        },
+      ])
 
-    window.open(waLinkWithText(message), '_blank', 'noopener,noreferrer')
+      if (dbError) {
+        console.error('Gagal menyimpan ke Supabase:', dbError.message)
+      }
+
+      // 2. Kirim pesan konfirmasi WA otomatis via Fonnte Gateway
+      await sendWAConfirmation({
+        name,
+        waNumber: phone,
+        date: day,
+        time,
+        treatment: service,
+      })
+
+      setSuccessMsg('Reservasi Anda berhasil dicatat! Admin kami telah mengirimkan konfirmasi via WhatsApp.')
+
+      // 3. Buka tautan WhatsApp Web/App pasien sebagai fallback
+      const message = [
+        `Halo ${clinic.name}, saya ingin reservasi.`,
+        '',
+        `Nama: ${name}`,
+        `No. HP: ${phone}`,
+        `Layanan: ${service}`,
+        `Jadwal: ${day}, ${time}`,
+        notes ? `Catatan: ${notes}` : null,
+      ]
+        .filter((line) => line !== null)
+        .join('\n')
+
+      window.open(waLinkWithText(message), '_blank', 'noopener,noreferrer')
+      
+      // Reset form
+      e.currentTarget.reset()
+    } catch (err) {
+      console.error('Error handling reservation:', err)
+      setError('Terjadi kesalahan saat memproses reservasi. Silakan coba lagi.')
+    } finally {
+      setLoading(false)
+    }
   }
 
   return (
@@ -73,75 +117,91 @@ export function ReservationForm() {
         </div>
 
         <Reveal delay={0.1} className="md:col-span-3">
-          <form onSubmit={handleSubmit} className="grid gap-4 rounded-2xl bg-card p-5 shadow-sm sm:grid-cols-2 md:p-6" noValidate={false}>
-          <div className="flex flex-col gap-1.5 sm:col-span-2">
-            <label htmlFor="name" className="text-sm font-medium text-foreground">Nama Lengkap</label>
-            <input id="name" name="name" required autoComplete="name" placeholder="Nama" className={fieldClass} />
-          </div>
-          <div className="flex flex-col gap-1.5 sm:col-span-2">
-            <label htmlFor="phone" className="text-sm font-medium text-foreground">Nomor HP</label>
-            <input
-              id="phone"
-              name="phone"
-              type="tel"
-              inputMode="tel"
-              required
-              autoComplete="tel"
-              placeholder="0812xxxxxxx"
-              aria-invalid={Boolean(error)}
-              aria-describedby={error ? 'phone-error' : undefined}
-              className={fieldClass}
-            />
-            {error && (
-              <p id="phone-error" role="alert" className="text-sm text-destructive">{error}</p>
+          <form onSubmit={handleSubmit} className="grid gap-4 rounded-2xl bg-card p-5 shadow-sm sm:grid-cols-2 md:p-6">
+            {successMsg && (
+              <div className="sm:col-span-2 p-3 rounded-xl bg-emerald-50 text-emerald-800 border border-emerald-200 text-sm font-medium">
+                {successMsg}
+              </div>
             )}
-          </div>
-          <div className="flex flex-col gap-1.5 sm:col-span-2">
-            <label htmlFor="service" className="text-sm font-medium text-foreground">Pilih Layanan</label>
-            <select id="service" name="service" required defaultValue="" className={fieldClass}>
-              <option value="" disabled>Pilih layanan</option>
-              {services.map((s) => (
-                <option key={s.name} value={s.name}>{s.name}</option>
-              ))}
-              <option value="Konsultasi Umum">Konsultasi Umum</option>
-            </select>
-          </div>
-          <div className="flex flex-col gap-1.5">
-            <label htmlFor="day" className="text-sm font-medium text-foreground">Pilih Hari</label>
-            <select id="day" name="day" required defaultValue="" className={fieldClass}>
-              <option value="" disabled>Pilih hari</option>
-              {days.map((d) => (
-                <option key={d} value={d}>{d}</option>
-              ))}
-            </select>
-          </div>
-          <div className="flex flex-col gap-1.5">
-            <label htmlFor="time" className="text-sm font-medium text-foreground">Pilih Jam</label>
-            <select id="time" name="time" required defaultValue="" className={fieldClass}>
-              <option value="" disabled>Pilih jam</option>
-              {timeSlots.map((t) => (
-                <option key={t} value={t}>{t}</option>
-              ))}
-            </select>
-          </div>
-          <div className="flex flex-col gap-1.5 sm:col-span-2">
-            <label htmlFor="notes" className="text-sm font-medium text-foreground">
-              Catatan <span className="font-normal text-muted-foreground">(opsional)</span>
-            </label>
-            <textarea id="notes" name="notes" rows={3} placeholder="Keluhan atau dokter yang diinginkan" className={`${fieldClass} resize-none`} />
-          </div>
-          <MotionButton
-            type="submit"
-            lift={-2}
-            className="inline-flex items-center justify-center gap-2 rounded-xl bg-primary px-6 py-3.5 text-base font-semibold text-primary-foreground shadow-sm transition-[box-shadow,background-color] hover:bg-[#007575] hover:shadow-md focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary sm:col-span-2"
-          >
-            <Send className="size-4" aria-hidden="true" />
-            Kirim via WhatsApp
-          </MotionButton>
-          <p className="text-center text-xs text-muted-foreground sm:col-span-2">
-            Data yang Anda isi akan digunakan untuk menyusun pesan reservasi yang dibuka melalui WhatsApp.
-          </p>
-        </form>
+
+            <div className="flex flex-col gap-1.5 sm:col-span-2">
+              <label htmlFor="name" className="text-sm font-medium text-foreground">Nama Lengkap</label>
+              <input id="name" name="name" required autoComplete="name" placeholder="Nama" className={fieldClass} />
+            </div>
+            <div className="flex flex-col gap-1.5 sm:col-span-2">
+              <label htmlFor="phone" className="text-sm font-medium text-foreground">Nomor HP</label>
+              <input
+                id="phone"
+                name="phone"
+                type="tel"
+                inputMode="tel"
+                required
+                autoComplete="tel"
+                placeholder="0812xxxxxxx"
+                aria-invalid={Boolean(error)}
+                aria-describedby={error ? 'phone-error' : undefined}
+                className={fieldClass}
+              />
+              {error && (
+                <p id="phone-error" role="alert" className="text-sm text-destructive">{error}</p>
+              )}
+            </div>
+            <div className="flex flex-col gap-1.5 sm:col-span-2">
+              <label htmlFor="service" className="text-sm font-medium text-foreground">Pilih Layanan</label>
+              <select id="service" name="service" required defaultValue="" className={fieldClass}>
+                <option value="" disabled>Pilih layanan</option>
+                {services.map((s) => (
+                  <option key={s.name} value={s.name}>{s.name}</option>
+                ))}
+                <option value="Konsultasi Umum">Konsultasi Umum</option>
+              </select>
+            </div>
+            <div className="flex flex-col gap-1.5">
+              <label htmlFor="day" className="text-sm font-medium text-foreground">Pilih Hari</label>
+              <select id="day" name="day" required defaultValue="" className={fieldClass}>
+                <option value="" disabled>Pilih hari</option>
+                {days.map((d) => (
+                  <option key={d} value={d}>{d}</option>
+                ))}
+              </select>
+            </div>
+            <div className="flex flex-col gap-1.5">
+              <label htmlFor="time" className="text-sm font-medium text-foreground">Pilih Jam</label>
+              <select id="time" name="time" required defaultValue="" className={fieldClass}>
+                <option value="" disabled>Pilih jam</option>
+                {timeSlots.map((t) => (
+                  <option key={t} value={t}>{t}</option>
+                ))}
+              </select>
+            </div>
+            <div className="flex flex-col gap-1.5 sm:col-span-2">
+              <label htmlFor="notes" className="text-sm font-medium text-foreground">
+                Catatan <span className="font-normal text-muted-foreground">(opsional)</span>
+              </label>
+              <textarea id="notes" name="notes" rows={3} placeholder="Keluhan atau dokter yang diinginkan" className={`${fieldClass} resize-none`} />
+            </div>
+            <MotionButton
+              type="submit"
+              disabled={loading}
+              lift={-2}
+              className="inline-flex items-center justify-center gap-2 rounded-xl bg-primary px-6 py-3.5 text-base font-semibold text-primary-foreground shadow-sm transition-[box-shadow,background-color] hover:bg-[#007575] hover:shadow-md focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary sm:col-span-2 disabled:opacity-60"
+            >
+              {loading ? (
+                <>
+                  <Loader2 className="size-4 animate-spin" aria-hidden="true" />
+                  Memproses Reservasi...
+                </>
+              ) : (
+                <>
+                  <Send className="size-4" aria-hidden="true" />
+                  Kirim via WhatsApp
+                </>
+              )}
+            </MotionButton>
+            <p className="text-center text-xs text-muted-foreground sm:col-span-2">
+              Data yang Anda isi akan otomatis tersimpan di portal admin dan dikonfirmasi via WhatsApp.
+            </p>
+          </form>
         </Reveal>
       </div>
     </section>
